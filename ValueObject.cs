@@ -1,4 +1,4 @@
-﻿namespace ValueObject
+﻿namespace Netextensions.ValueObject
 {
     public abstract class ValueObject<T>
         where T : ValueObject<T>
@@ -33,4 +33,5 @@
             return !(a == b);
         }
     }
+
 }
