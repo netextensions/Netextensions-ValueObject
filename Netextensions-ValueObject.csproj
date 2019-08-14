@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
     <RootNamespace>Netextensions.ValueObject</RootNamespace>
     <AssemblyName>Netextensions.ValueObject</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>1.0.0.1-preview</PackageVersion>
+    <PackageVersion>1.0.0.2-preview</PackageVersion>
     <Title>repacked valueobject</Title>
     <Copyright>https://github.com/vkhorikov/CSharpFunctionalExtensions/blob/master/CSharpFunctionalExtensions/ValueObject.cs</Copyright>
     <PackageProjectUrl>https://github.com/netextensions/Netextensions-ValueObject</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/vkhorikov/CSharpFunctionalExtensions/blob/master/CSharpFunctionalExtensions/ValueObject.cs</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/netextensions/Netextensions-ValueObject</RepositoryUrl>
     <PackageTags>Value object, ddd</PackageTags>
+    <TargetFrameworks>net46;netstandard1.0</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
