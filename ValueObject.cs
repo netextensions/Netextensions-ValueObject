@@ -1,21 +1,23 @@
-﻿namespace Netextensions.ValueObject
+﻿using System;
+
+namespace NetExtensions.ValueObject
 {
     public abstract class ValueObject<T>
         where T : ValueObject<T>
     {
         public override bool Equals(object obj)
         {
-            return obj is T valueObject && (GetType() == obj.GetType() && EqualsCore(valueObject));
+            return obj is T valueObject && (GetType() == obj.GetType() && EqualsCustom(valueObject));
         }
 
-        protected abstract bool EqualsCore(T other);
+        protected abstract bool EqualsCustom(T other);
 
         public override int GetHashCode()
         {
-            return GetHashCodeCore();
+            return GetHashCodeCustom();
         }
 
-        protected abstract int GetHashCodeCore();
+        protected abstract int GetHashCodeCustom();
 
         public static bool operator ==(ValueObject<T> a, ValueObject<T> b)
         {
@@ -33,5 +35,4 @@
             return !(a == b);
         }
     }
-
 }
