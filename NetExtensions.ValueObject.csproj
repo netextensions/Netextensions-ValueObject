@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
-    <Version>1.0.0.3-preview</Version>
-    <Description>repacked Valueobject from Vladimir Khorikov's package: https://github.com/vkhorikov/CSharpFunctionalExtensions</Description>
-    <Copyright>Vladimir Khorikov, see github</Copyright>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.0.0.6</Version>
+    <Description>https://github.com/vkhorikov/CSharpFunctionalExtensions</Description>
+    <Copyright>see github</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/netextensions/Netextensions-ValueObject</PackageProjectUrl>
     <RepositoryUrl>https://github.com/netextensions/Netextensions-ValueObject</RepositoryUrl>
     <PackageReleaseNotes>https://github.com/vkhorikov/CSharpFunctionalExtensions/blob/master/CSharpFunctionalExtensions/ValueObject.cs</PackageReleaseNotes>
     <PackageTags>ValueObject, ddd</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://github.com/netextensions/netextensions/raw/master/netExtensions.io.png</PackageIconUrl>
   </PropertyGroup>
 
 </Project>
